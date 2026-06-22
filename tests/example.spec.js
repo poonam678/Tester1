@@ -11,4 +11,5 @@ test("css selectors",async({page})=>{
     await page.locator("[type='password]").fill("amith12345")
     //select by tag+attribute
     await page.locator('button[type="submit"]').click()
+    //Tester 1
 })
